@@ -9,7 +9,7 @@ This is a robotic pen plotter controlled by an Arduino Uno and a Java Swing GUI.
 This program recieves points from the GUI via serial communication, then uses inverse kinematics to convert them to motor angles. It uses a smooth drawing function to move both arms simultaneously and reduce jaggedness in the drawing.
 
 ## plotterGUI.java
-This is a Java Swing GUI which allows the user to make drawing paths and send them to the Arduino. It converts points on the screen to coordinates in millimetres which the Arduino can use. The points are sent using the jSericalComm library.
+This is a Java Swing GUI which allows the user to make drawing paths and send them to the Arduino. It converts points on the screen to coordinates in millimetres which the Arduino can use. The points are sent using the jSerialComm library.
 
 ## Wiring
 Left motor - D6
